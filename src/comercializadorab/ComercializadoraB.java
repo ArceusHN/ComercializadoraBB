@@ -5,6 +5,8 @@
  */
 package comercializadorab;
 
+import Vista.Producto.frmProducto;
+
 /**
  *
  * @author Administrator
@@ -15,7 +17,8 @@ public class ComercializadoraB {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        frmProducto FrmProducto = new frmProducto();
+        FrmProducto.setVisible(true);
     }
     
 }
